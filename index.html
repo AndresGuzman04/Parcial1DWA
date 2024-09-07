@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/style.css">
+    <title>CODE BLOG</title>
+</head>
+<body>
+    <header class="text-center p-3 bg-dark text-white">
+        <nav class="nav justify-content-start container">
+            <a href="#" class="text-white mx-4">CODE BLOG</a>
+            <a href="#" class="navlink mx-3">Inicio</a>
+            <a href="#" class="navlink mx-3">Acerca de</a>
+            <a href="#" class="navlink mx-3">Contacto</a>
+        </nav>
+    </header>
+
+    <section class="container-fluid">
+        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="img/c-lenguaje-de-programacion.jpg" class="d-block w-100 " alt="Java">
+              </div>
+              <div class="carousel-item">
+                <img src="img/rust-lenguaje-de-programacion.jpg" class="d-block w-100" alt="c#">
+              </div>
+              <div class="carousel-item">
+                <img src="img/perl-lenguaje-de-programacion.jpg" class="d-block w-100" alt="rust">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+    </section>
+
+    <section class="container mt-4 space">
+        <div class="row text-center">
+            <div class="col-sm-12 col-md-6 col-lg-4 mb-4">
+                <div class="card h-100">
+                    <img src="img/java-lenguaje-de-programacion.jpg" class="card-img-top" alt="Combo 1">
+                    <div class="card-body">
+                        <h5 class="card-title">JavaScript</h5>
+                        <p class="card-text">JavaScript, que se utiliza en desarrollo web, desarrollo de videojuegos, aplicaciones móviles y construcción de servidores web, sigue siendo entonces el lenguaje de programación más utilizado en la actualidad, en todo el mundo.
+                        </p>
+                        <a href="#" class="btn btn-primary">Leer más</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-12 col-md-6 col-lg-4 mb-4">
+                <div class="card h-100">
+                    <img src="img/python-lenguaje-de-progrmacion.jpg" class="card-img-top" alt="Combo 2">
+                    <div class="card-body">
+                        <h5 class="card-title">Python</h5>
+                        <p class="card-text">Python es otro lenguaje de programación para propósitos generales, el cual permite a los desarrolladores utilizar varios estilos de programación diferentes al crear programas. Se emplea para el desarrollo de Back end, ciencia de datos y desarrollo de aplicaciones.</p>
+                        <a href="#" class="btn btn-primary">Leer más</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-12 col-md-6 col-lg-4 mb-4">
+                <div class="card h-100">
+                    <img src="img/sql-lenguaje-de-programacion.jpg" class="card-img-top" alt="Combo 3">
+                    <div class="card-body">
+                        <h5 class="card-title">SQL</h5>
+                        <p class="card-text">SSQL, sigla del inglés Structured Query Language (lenguaje de consulta estructurada), es un lenguaje que permite a los programadores consultar y manipular bases de datos.</p>
+                        <a href="#" class="btn btn-primary">Leer más</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="container mt-4 space">
+        <h2 class="text-center">Contáctanos</h2>
+        <form class="p-4 bg-light">
+            <div class="mb-3">
+                <label for="name" class="form-label">Nombre</label>
+                <input type="text" class="form-control" id="name">
+            </div>
+            <div class="mb-3">
+                <label for="email" class="form-label">Correo Electrónico</label>
+                <input type="email" class="form-control" id="email">
+            </div>
+            <div class="mb-3">
+                <label for="message" class="form-label">Mensaje</label>
+                <textarea class="form-control" id="message" rows="3"></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Enviar</button>
+        </form>
+    </section>
+
+    <footer class="text-center p-3 mt-4 bg-dark text-white">
+        <p>&copy; developed by Andres Guzman. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>

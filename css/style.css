@@ -1,0 +1,72 @@
+/* Estilos generales para el contenedor */
+body {
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: #343a40;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+header nav a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+}
+
+.card img {
+    height: 200px;
+    object-fit: cover;
+}
+
+footer {
+    background-color: #343a40;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+/* Sombra para tarjetas */
+.card {
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Espacio superior */
+.space {
+    margin-top: 40px;
+}
+
+/* Formulario de contacto */
+form {
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: #f8f9fa;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/*carousel*/
+.carousel-inner {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 55vh;
+}
+
+.container-fluid {
+    padding: 0;
+}
+
+/*nav */
+.navlink {
+    color: gray;
+}
+
+.navlink:hover {
+    color: white;
+    background-color: #333;
+    text-decoration: none;
+    transition: all 0.2s ease-in-out;
+}
